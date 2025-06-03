@@ -38,7 +38,7 @@ flg_Service=0
 flg_DryRun=0
 flg_Shell=0
 flg_Nvidia=0
-flg_ThemeInstall=1
+flg_ThemeInstall=0
 
 while getopts idrstmnh: RunStep; do
     case $RunStep in
